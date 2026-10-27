@@ -1,6 +1,5 @@
 <?php
 $menu = get_menu_by_slug('main');
-js_log($menu);
 ?>
 
 <header data-layout="header">
@@ -15,5 +14,5 @@ js_log($menu);
                 </li>
             <?php endforeach; ?>
         </ul>
-</nav>
+    </nav>
 </header>
